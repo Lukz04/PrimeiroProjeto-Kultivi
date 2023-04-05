@@ -1,0 +1,153 @@
+@font-face {
+    font-family: open sans;
+    src: url(fontes/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f4f4;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: rgb(252, 252, 255);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -1.4%;
+}
+
+
+header h1 {
+    margin-left: 35%;
+    text-indent: 6%;
+}
+
+header {
+    background-color: #34c695;
+    margin: 0;
+    padding: 0.2em;
+}
+
+
+.listas {
+    display: flex;
+    padding-bottom: -20px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.listas ul {
+    list-style: none;
+}
+
+.listas button {
+    align-items: right;
+    width: 50px;
+    height: 32px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    background: #ff5959;
+    color: black;
+    border-radius: 5px;
+    transition: border-radius 0.7s;
+    font-family: open sans;
+}
+
+a:hover {
+    border-radius: 10px;
+}
+
+.meetyou h4 {
+    color: rgb(245, 36, 36);
+}
+
+.home,
+.home2 {
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+
+
+.countries {
+    display: flex;
+}
+
+.countrietext {
+    margin-right: 5px;
+}
+
+h1 {
+    color: #ff2626;
+    margin-left: 30%;
+}
+
+h2 {
+    color: #34c685;
+    margin-left: 25%;
+}
+
+h3,
+h4,
+h5 {
+    color: #34c685;
+    margin-left: 25%;
+}
+
+
+
+p {
+    line-height: 25px;
+    margin-left: 25%;
+    margin-right: 20%;
+    font-family: open sans;
+}
+
+label,
+table {
+    margin-left: 25%;
+    font-family: open sans;
+}
+
+/* table {
+    margin-left: 25%;
+    font-family: oswald;
+} */
+
+caption {
+    color: lightskyblue;
+    margin-left: 25%;
+}
+
+button {
+    margin-left: 25%;
+}
+
+input {
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+textarea {
+    margin-left: 14rem;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 0.2rem;
+}
+
+button {
+    margin-left: 1rem;
+    height: 2rem;
+}
